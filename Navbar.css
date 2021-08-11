@@ -1,0 +1,40 @@
+.navbar__background {
+  background-color: turquoise;
+  width: 100%;
+}
+.container-fluid {
+  padding: 0px;
+}
+
+.create__jobInput {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.col-md-2 > button {
+  color: #5aa7a7;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 2rem;
+
+  background-color: #e8f6f7;
+  color: #76a4a4;
+  border-radius: 5px;
+
+  border: none;
+  outline: inherit;
+  font-weight: 600;
+}
+.col-md-2 > button:hover {
+  background-color: #58a5a2;
+  color: white;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem;
+}
